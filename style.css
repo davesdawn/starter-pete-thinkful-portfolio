@@ -49,12 +49,19 @@ p {
 
 
 
-.intro {
+.intro, .projects {
   display: flex ;
+  flex-direction: row;
 }
 
 .intro-para  p {
   text-align: left;
+}
+
+
+
+.projects p {
+  font-size: 14px;
 }
 /* Links */
 a:link {
