@@ -39,6 +39,7 @@ article {
 article div {
   text-align: center;
   width: 100%;
+  
 }
 
 /* Paragraphs */
@@ -46,13 +47,15 @@ p {
   line-height: 1.5;
 }
 
-.flex-row {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  
+
+
+.intro {
+  display: flex ;
 }
 
+.intro-para  p {
+  text-align: left;
+}
 /* Links */
 a:link {
   color: #d62828;
